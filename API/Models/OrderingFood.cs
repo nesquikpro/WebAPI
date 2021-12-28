@@ -1,0 +1,14 @@
+﻿using System;
+using System.Collections.Generic;
+
+#nullable disable
+
+namespace API.Models
+{
+    public partial class OrderingFood
+    {
+        public int IdOrderingFood { get; set; }
+        public int? FoodId { get; set; }
+        public int? ClientId { get; set; }
+    }
+}

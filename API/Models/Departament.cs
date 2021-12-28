@@ -1,0 +1,14 @@
+﻿using System;
+using System.Collections.Generic;
+
+#nullable disable
+
+namespace API.Models
+{
+    public partial class Departament
+    {
+        public int IdDepartament { get; set; }
+        public string Name { get; set; }
+        public string DepartamentPhone { get; set; }
+    }
+}
